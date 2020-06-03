@@ -16,6 +16,9 @@ import statisticsRouter from './modules/statistics'
 import feeRouter from './modules/fee'
 import chargeRouter from './modules/charge'
 import refundRouter from './modules/refund'
+import otherRouter from './modules/other'
+import prescriptionRouter from './modules/prescription'
+import healthRouter from './modules/healthcard_certification'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -138,13 +141,15 @@ export const asyncRoutes = [
   // componentsRouter,
   // chartsRouter,
   nestedRouter,
+  prescriptionRouter,
   chargeRouter,
+  healthRouter,
   refundRouter,
   feeRouter,
   // tableRouter,
   infoRouter,
   statisticsRouter,
-
+  otherRouter,
   // {
   //   path: '/tab',
   //   component: Layout,

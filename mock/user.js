@@ -12,13 +12,15 @@ const users = {
   'admin-token': {
     roles: ['admin'],
     introduction: 'I am a super administrator',
-    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    // avatar: require('../../../assets/images/ttttt.gif'),
+    avatar: 'https://wpimg.wallstcn.com/e4558086-631c-425c-9430-56ffb46e70b3',
     name: 'Super Admin'
   },
   'editor-token': {
     roles: ['editor'],
     introduction: 'I am an editor',
-    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    // avatar: require('../../../assets/images/ttttt.gif'),
+    avatar: 'https://wpimg.wallstcn.com/e4558086-631c-425c-9430-56ffb46e70b3',
     name: 'Normal Editor'
   }
 }

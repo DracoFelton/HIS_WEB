@@ -7,7 +7,7 @@
  * @FilePath: /vue-element-admin/src/settings.js
  */
 module.exports = {
-  title: '苏北人民医院',
+  title: '智慧医院',
 
   /**
    * @type {boolean} true | false

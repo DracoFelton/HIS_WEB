@@ -1,9 +1,17 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-06-04 15:49:36
+ * @LastEditTime: 2020-06-04 16:10:22
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /HIS_WEB/src/views/other/introduce/index.vue
+-->
 <template>
   <div style="padding: 20px;">
     <el-carousel :interval="4000" type="card" height="200px">
-      <div class="demo-image__lazy">
-        <el-carousel-item v-for="url in urls" :key="url" :src="url" lazy />
-      </div>
+      <el-carousel-item v-for="url in urls" :key="url">
+        <el-image :src="url" lazy />
+      </el-carousel-item>
     </el-carousel>
     <div id="ttt" style="padding: 40px;">
       <h1>医院简介</h1>
